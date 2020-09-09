@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: arial;
+    background: #eee;
+}
+
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#main-navigation{
+    background-color: rgba(13, 67, 71, 0.9);
+    padding: 10px;
+}
+
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    padding-left: 20px ;
+}
+
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right:10px;
+}
+
+#main-navigation a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+    background-color: rgb(36, 140, 158);
+    border-radius: 2px;
+}
+
+#main-navigation a:hover{
+    background-color: goldenrod;
+}
+
+#main-navigation a.current{
+    background-color: coral;
+    border-radius: 5px;
+}
+
+#bsk img{
+    /* display: block; */
+    width: 85px;
+    position: relative;
+    top:-60px;
+    margin-bottom: -60px;
+    border-radius: 50%;
+}
+
+#bsk img{
+
+}
+
+#lead-banner img{
+    width: 100%;
+}
+
+#shop{
+    text-align: center;
+    margin: 40px;
+}
+
+#shop h2.product-name{
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+#shop span.price{
+    font-size: 58px;
+    display: block;
+}
+
+#shop a.add-to-bag{
+    display: block;
+    color: #8f746c;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0px;
+    border: 2px solid #8f746c;
+    width: 210px;
+    margin: 20px auto ;
+}
+
+#shop a.add-to-bag:hover{
+    background: #8f746c;
+    color: #fff;
+
+}
+
+#footer-banner img{
+    width: 100%;
+}
+
+
+#pic-contact{
+    background-color: rgba(13, 67, 71, 0.9);
+    padding: 10px;
+    text-align: center;
+    color: seashell;
+    margin-top:-4px ;
+}
+
+#pic-contact img{
+    display: inline-block;
+    width: 35px;
+    padding-left: 20px ;
+    
+}
+
+#pic-contact a{
+    color:white
+
+}
+
+#pic-contact a:hover{
+    color: rgb(44, 207, 3);
+
+}
