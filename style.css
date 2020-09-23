@@ -27,6 +27,8 @@ body{
     margin-right:10px;
 }
 
+
+
 #main-navigation a{
     color: #fff;
     text-decoration: none;
@@ -55,9 +57,37 @@ body{
     border-radius: 50%;
 }
 
-#bsk img{
-
+.dp-Content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.7);
+    
 }
+
+.dropdown:hover .dp-Content{
+    display: block;
+    margin-top: 10px;
+}
+
+#main-navigation li a.dp{
+    background-color: rgb(9, 163, 168);
+    /* display: block; */
+    text-align: center;
+    padding: 8;
+    
+}
+
+#main-navigation li a.dp:hover{
+    background-color: rgb(73, 110, 5);
+    font-size: 16px;
+    
+}
+
+
+
+
 
 #lead-banner img{
     width: 100%;
